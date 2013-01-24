@@ -1,0 +1,20 @@
+{
+    "author" : "Mike Dominice <mike@mikedominice.com> (http://www.mikedominice.com)",
+    "name" : "jsonpath-cli",
+    "homepage" : "https://github.com/mdomi/jsonpath",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/mdomi/jsonpath"
+    },
+    "bugs" : {
+        "url" : "https://github.com/mdomi/jsonpath/issues",
+        "email" : "mike@mikedominice.com"
+    },
+    "version" : "0.0.1",
+    "private" : true,
+    "license" : "MIT",
+    "dependencies" : {
+        "JSONPath" : "*",
+        "JSONStream" : "*"
+    }
+}
