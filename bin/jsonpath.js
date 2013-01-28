@@ -6,9 +6,8 @@
 (function () {
     'use strict';
 
-    var JSONPathStream = require('./jsonpathstream').JSONPathStream;
-
-    var parser = new JSONPathStream(process.argv[2]);
+    var JSONPathStream = require('../lib/jsonpathstream').JSONPathStream,
+        parser = new JSONPathStream(process.argv[2]);
 
     process.stdin.pipe(parser);
     parser.pipe(process.stdout);
