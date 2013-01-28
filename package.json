@@ -11,6 +11,9 @@
         "email" : "mike@mikedominice.com"
     },
     "keywords" : ["json", "jsonpath", "cli"],
+    "bin" : {
+        "jsonpath" : "./bin/jsonpath"
+    },
     "main" : "./lib/jsonpath",
     "version" : "0.0.1",
     "private" : true,
